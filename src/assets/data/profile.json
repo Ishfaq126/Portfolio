@@ -1,0 +1,147 @@
+{
+    "name": "M. Saif Ibrahim",
+    "location": "Gjøvik, Norway (Open to relocation)",
+    "email": "msaif.ib10@gmail.com",
+    "phone": "+47 93074051",
+    "profile_picture": "https://avatars.githubusercontent.com/u/49753694?v=4",
+    "socials": {
+      "linkedin": "https://www.linkedin.com/in/saif-warraich",
+      "github": "https://github.com/saifwarraich",
+      "portfolio": "",
+      "twitter": "",
+      "medium": "",
+      "devto": "https://dev.to/saifwarraich"
+    },
+    "summary": "Full Stack Software Engineer experienced in frontend (React, React Native, Next Js) and backend (Node.js, PostgreSQL, REST APIs, GraphQL) development. Skilled in designing intuitive, user-focused interfaces and building scalable systems for critical applications.",
+    
+    "skills": [
+      {"name": "React", "icon_key": "react-original"},
+      {"name": "TypeScript", "icon_key": "typescript-plain"},
+      {"name": "JavaScript", "icon_key": "javascript-plain"},
+      {"name": "Next.js", "icon_key": "nextjs-plain"},
+      {"name": "Node.js", "icon_key": "nodejs-plain"},
+      {"name": "Express", "icon_key": "express-original"},
+      {"name": "Python", "icon_key": "python-plain"},
+      {"name": "PostgreSQL", "icon_key": "postgresql-plain"},
+      {"name": "MongoDB", "icon_key": "mongodb-plain"},
+      {"name": "AWS", "icon_key": "amazonwebservices-plain-wordmark"},
+      {"name": "Docker", "icon_key": "docker-plain"},
+      {"name": "Git", "icon_key": "git-plain"}
+    ],
+  
+    "currentlyLearning": ["rust", "kubernetes", "tensorflow"],
+  
+    "experience": [
+      {
+        "role": "Software Engineer",
+        "company": "Norwegian Cyber Range",
+        "location": "Gjøvik, Norway",
+        "period": "Sep 2024 – Present",
+        "link": "https://www.ntnu.no/ncr",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvP-G5Ayvy-bdKKLS0UcrrVRnjF2A88wo_ZjyjcGkw_5MGIAToT2I-foZNq5jkWz9970c&usqp=CAU",
+        "tech": [ "react", "nextjs", "fastapi", "tailwindcss", "typescript", "postgresql", "python"],
+        "description": "Developed scalable backend APIs with TypeScript and cloud infrastructure serving 10+ EU countries. Built complex PostgreSQL architectures for data-driven apps. Created React dashboards with advanced data visualizations, improving engagement by 15%."
+      },
+      {
+        "role": "Software Development Intern",
+        "company": "Kiona AS",
+        "location": "Trondheim, Norway",
+        "period": "Jun 2024 – Aug 2024",
+        "link": "https://www.kiona.com/no",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJmfV6Txd4y34t-Z196mvk-irpE0CvtRxAZg&s",
+        "tech": ["react", "typescript", "tailwindcss"],
+        "description": "Built UIs with React + TypeScript for data filtering/visualization. Collaborated with cross-functional teams in Agile sprints. Optimized responsiveness by 20% with functional programming techniques."
+      },
+      {
+        "role": "Software Engineer",
+        "company": "Coding Crafts",
+        "location": "Lahore, Pakistan",
+        "period": "Sep 2022 – Aug 2023",
+        "link": "https://www.codingcrafts.io/",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVbpkC0nHjZTr7xgiBzeGb6wAjmGl_TxQGBA&s",
+        "tech": ["react", "typescript", "tailwindcss", "nodejs", "dotnet", "graphql", "postgresql","express", "rest", "graphql"],
+        "description": "Developed REST/GraphQL APIs in Python, Node.js, and .NET. Architected PostgreSQL schemas for analytics platforms. Built full-stack apps with Next.js and scalable backend systems."
+      },
+      {
+        "role": "Full Stack Engineer (Part-Time)",
+        "company": "SkipQ",
+        "location": "Remote, USA",
+        "period": "Oct 2022 – Apr 2023",
+        "link": "https://www.skipq.org/",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH4VtYYyrBmiLExpfPA5cKYOtRWaol7NNM2A&s",
+        "tech": ["react", "typescript", "flask", "mongodb", "googlecloud", "reactnative"],
+        "description": "Built real-time communication systems with React/TypeScript frontends and React Native mobile. Developed scalable Flask + MongoDB backends (30% faster retrieval). Worked in distributed teams on production-ready apps."
+      }
+    ],
+  
+    "education": [
+      {
+        "degree": "Master in Applied Computer Science (MACS)",
+        "university": "Norwegian University of Science and Technology -NTNU",
+        "location": "Gjøvik, Norway",
+        "period": "Aug 2023 – Jun 2025",
+        "grade": "B",
+        "gpa": "",
+        "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvP-G5Ayvy-bdKKLS0UcrrVRnjF2A88wo_ZjyjcGkw_5MGIAToT2I-foZNq5jkWz9970c&usqp=CAU",
+        "details": [
+          "Thesis: Zero-Shot Sports Video Understanding with Vision-Language Models",
+          "Specialized in AI and Web technologies with focus on machine learning and full-stack development",
+          "Research Assistant at Norwegian Cyber Range"
+        ]
+      },
+      {
+        "degree": "Bachelor in Software Engineering (BSSE)",
+        "university": "Sukkur IBA University",
+        "location": "Sukkur, Pakistan",
+        "period": "Jan 2018 – Jan 2022",
+        "grade": "",
+        "gpa": "3.7/4.0",
+        "logo": "https://upload.wikimedia.org/wikipedia/commons/d/d3/SIBA_Logo.jpg",
+        "details": [
+          "Courses: Data Structures, Java, C++, Web Development, Operating Systems, Computer Architecture, system design",
+          "Volunteer: Ambassador at SAMF & PSYWSC'19 Conferences",
+          "Gold medalist"
+        ]
+      }
+    ],
+  
+    "projects": [
+      {
+        "title": "FilterStack",
+        "tech": ["vuejs", "webassembly", "tailwindcss", "typescript", "vite"],
+        "description": "Browser-based photo editing app with layered filters and complete client-side privacy.",
+        "background": "https://raw.githubusercontent.com/saifwarraich/FilterStack/refs/heads/main/screenshot/ss.png",
+        "live": "https://filter-stack.vercel.app/",
+        "code": "https://github.com/saifwarraich/FilterStack",
+        "coming_soon": false
+      },
+      {
+        "title": "QuickMeme",
+        "tech": ["javascript", "chrome-extension", "html", "css"],
+        "description": "A Chrome extension for creating memes from any image with customizable text overlay and styling options.",
+        "background": "https://raw.githubusercontent.com/saifwarraich/quick-meme/refs/heads/main/demo/0626.gif",
+        "live": "https://chromewebstore.google.com/detail/quickmeme/jgoffihfcdbdaajknhnbialokagagnjj",
+        "code": "https://github.com/saifwarraich/FilterStack",
+        "coming_soon": false
+      },
+      {
+        "title": "BPPV - Eye Tracker",
+        "tech": ["react", "electron", "python", "express", "mongodb"],
+        "description": "Desktop solution for analyzing Vertigo eye-tracking data in real time or offline with annotations.",
+        "background": "https://raw.githubusercontent.com/saifwarraich/BPPV-Eye-Tracker/refs/heads/main/public/bpp-demo.gif",
+        "live": "",
+        "code": "https://github.com/saifwarraich/BPPV-Eye-Tracker",
+        "coming_soon": false
+      },
+      {
+        "title": "Curio - Research Assistant",
+        "tech": ["langchain", "langgraph", "python", "nextjs"],
+        "description": "Curio is an intelligent research assistant that helps you gather, analyze, and visualize data from multiple sources using advanced AI workflows. Built with LangChain and LangGraph, it seamlessly integrates Python-based data processing with a modern Next.js frontend for interactive research insights.",
+        "background": "",
+        "live": "",
+        "code": "",
+        "coming_soon": true
+    }    
+    ]
+  }
+  
