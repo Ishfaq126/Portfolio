@@ -1,7 +1,7 @@
 import profileData from "../assets/data/profile.json"
-import { ExternalLink, Github, Eye } from "lucide-react"
+import { Github, Eye } from "lucide-react"
 
-function ProjectCard({ project, index }: { project: any, index: number }) {
+function ProjectCard({ project }: { project: any, index: number }) {
   const isComingSoon = project.coming_soon
 
   return (
