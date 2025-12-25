@@ -44,7 +44,6 @@ export function Navbar() {
     }`}>
       <div className="max-w-6xl mx-auto px-4 py-4">
         <div className="flex items-center justify-center">
-          {/* Navigation Links */}
           <div className="flex items-center space-x-2">
             <Button 
               variant="ghost" 

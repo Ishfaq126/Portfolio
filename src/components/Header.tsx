@@ -1,33 +1,37 @@
-import { BookOpen, PenTool } from "lucide-react"
-import profileData from "../assets/data/profile.json"
+import { BookOpen, PenTool } from "lucide-react";
+import profileData from "../assets/data/profile.json";
 
 export function Header() {
-  const { name, profile_picture, socials } = profileData
+  const { name, profile_picture, socials, job_title } = profileData;
 
   return (
     <div className="flex flex-col items-center space-y-3 lg:space-y-4">
-      {/* Profile Picture */}
       {profile_picture && (
         <div className="relative">
           <img
             src={profile_picture}
             alt={name}
-                  className="w-24 h-24 sm:w-28 sm:h-28 lg:w-48 lg:h-48 rounded-full object-cover border-4 border-primary/20 shadow-2xl"
+            className="w-24 h-24 sm:w-28 sm:h-28 lg:w-48 lg:h-48 rounded-full object-cover border-4 border-primary/20 shadow-2xl"
           />
           <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-primary/10 to-transparent"></div>
         </div>
       )}
-      
+
       <div className="text-center">
-        <h1 className={`font-bold text-foreground mb-2 ${profile_picture ? 'text-lg sm:text-xl lg:text-2xl' : 'text-xl sm:text-2xl lg:text-3xl'}`}>
+        <h1
+          className={`font-bold text-foreground mb-2 ${
+            profile_picture
+              ? "text-lg sm:text-xl lg:text-2xl"
+              : "text-xl sm:text-2xl lg:text-3xl"
+          }`}
+        >
           {name}
         </h1>
-        <p className="text-xs text-muted-foreground">
-          Full Stack Software Engineer
-        </p>
+        {job_title && (
+          <p className="text-xs text-muted-foreground">{job_title}</p>
+        )}
       </div>
-      
-      {/* Social Links */}
+
       <div className="flex flex-wrap justify-center gap-2 lg:gap-3 max-w-xs">
         {socials.linkedin && (
           <a
@@ -81,5 +85,5 @@ export function Header() {
         )}
       </div>
     </div>
-  )
+  );
 }

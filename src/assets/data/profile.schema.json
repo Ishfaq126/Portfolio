@@ -1,0 +1,149 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Portfolio Profile Schema",
+  "description": "Schema for portfolio profile data",
+  "type": "object",
+  "required": [
+    "name",
+    "email",
+    "summary",
+    "skills",
+    "experience",
+    "education",
+    "projects"
+  ],
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Your full name"
+    },
+    "title": {
+      "type": "string",
+      "description": "Portfolio page title (optional)"
+    },
+    "location": {
+      "type": "string",
+      "description": "Your location"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "description": "Your email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Your phone number"
+    },
+    "profile_picture": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to your profile picture"
+    },
+    "resume_link": {
+      "type": "string",
+      "format": "uri",
+      "description": "URL to download your resume"
+    },
+    "job_title": {
+      "type": "string",
+      "description": "Your professional title"
+    },
+    "copyright": {
+      "type": "string",
+      "description": "Copyright text for footer"
+    },
+    "socials": {
+      "type": "object",
+      "properties": {
+        "linkedin": { "type": "string", "format": "uri" },
+        "github": { "type": "string", "format": "uri" },
+        "portfolio": { "type": "string", "format": "uri" },
+        "twitter": { "type": "string", "format": "uri" },
+        "medium": { "type": "string", "format": "uri" },
+        "devto": { "type": "string", "format": "uri" }
+      }
+    },
+    "summary": {
+      "type": "string",
+      "description": "Professional summary"
+    },
+    "skills": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "icon_key"],
+        "properties": {
+          "name": { "type": "string" },
+          "icon_key": {
+            "type": "string",
+            "description": "Devicon icon key (e.g., 'react-original')"
+          }
+        }
+      }
+    },
+    "currentlyLearning": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name", "icon_key"],
+        "properties": {
+          "name": { "type": "string" },
+          "icon_key": {
+            "type": "string",
+            "description": "Devicon icon key (e.g., 'rust-plain')"
+          }
+        }
+      }
+    },
+    "experience": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["role", "company", "location", "period"],
+        "properties": {
+          "role": { "type": "string" },
+          "company": { "type": "string" },
+          "location": { "type": "string" },
+          "period": { "type": "string" },
+          "link": { "type": "string", "format": "uri" },
+          "logo": { "type": "string", "format": "uri" },
+          "tech": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" }
+        }
+      }
+    },
+    "education": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["degree", "university", "location", "period"],
+        "properties": {
+          "degree": { "type": "string" },
+          "university": { "type": "string" },
+          "location": { "type": "string" },
+          "period": { "type": "string" },
+          "grade": { "type": "string" },
+          "gpa": { "type": "string" },
+          "logo": { "type": "string", "format": "uri" },
+          "details": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "projects": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "description"],
+        "properties": {
+          "title": { "type": "string" },
+          "tech": { "type": "array", "items": { "type": "string" } },
+          "description": { "type": "string" },
+          "background": { "type": "string", "format": "uri" },
+          "live": { "type": "string", "format": "uri" },
+          "code": { "type": "string", "format": "uri" },
+          "coming_soon": { "type": "boolean", "default": false }
+        }
+      }
+    }
+  }
+}

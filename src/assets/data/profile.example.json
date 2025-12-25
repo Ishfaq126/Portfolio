@@ -1,0 +1,75 @@
+{
+  "name": "Your Full Name",
+  "title": "Your Portfolio Title",
+  "location": "Your City, Country (Optional: Open to relocation)",
+  "email": "your.email@example.com",
+  "phone": "+1 234 567 8900",
+  "profile_picture": "https://example.com/your-photo.jpg",
+  "resume_link": "https://example.com/your-resume.pdf",
+  "job_title": "Your Professional Title",
+  "copyright": "© 2024 Your Name. Built with React, TypeScript, and Tailwind CSS.",
+  "socials": {
+    "linkedin": "https://www.linkedin.com/in/yourprofile",
+    "github": "https://github.com/yourusername",
+    "portfolio": "https://yourportfolio.com",
+    "twitter": "https://twitter.com/yourusername",
+    "medium": "https://medium.com/@yourusername",
+    "devto": "https://dev.to/yourusername"
+  },
+  "summary": "A brief professional summary about yourself. This should highlight your key skills, experience, and what you're passionate about. Keep it concise but informative.",
+
+  "skills": [
+    { "name": "React", "icon_key": "react-original" },
+    { "name": "TypeScript", "icon_key": "typescript-plain" },
+    { "name": "JavaScript", "icon_key": "javascript-plain" },
+    { "name": "Node.js", "icon_key": "nodejs-plain" }
+  ],
+
+  "currentlyLearning": [
+    { "name": "Rust", "icon_key": "rust-plain" },
+    { "name": "Kubernetes", "icon_key": "kubernetes-plain" },
+    { "name": "TensorFlow", "icon_key": "tensorflow-plain" }
+  ],
+
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Company Name",
+      "location": "City, Country",
+      "period": "Jan 2024 – Present",
+      "link": "https://company-website.com",
+      "logo": "https://example.com/company-logo.png",
+      "tech": ["react", "typescript", "nodejs", "postgresql"],
+      "description": "Brief description of your role and key achievements. Highlight important projects, technologies used, and impact."
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "university": "University Name",
+      "location": "City, Country",
+      "period": "Aug 2020 – May 2024",
+      "grade": "A",
+      "gpa": "3.8/4.0",
+      "logo": "https://example.com/university-logo.png",
+      "details": [
+        "Relevant coursework: Data Structures, Algorithms, Web Development",
+        "Dean's List for 3 semesters",
+        "President of Computer Science Club"
+      ]
+    }
+  ],
+
+  "projects": [
+    {
+      "title": "Project Name",
+      "tech": ["react", "typescript", "nodejs", "mongodb"],
+      "description": "A brief description of your project. Explain what it does, key features, and technologies used.",
+      "background": "https://example.com/project-screenshot.png",
+      "live": "https://project-demo.com",
+      "code": "https://github.com/yourusername/project",
+      "coming_soon": false
+    }
+  ]
+}
