@@ -1,22 +1,22 @@
 {
-  "name": "M. Saif Ibrahim",
-  "title": "M. Saif Ibrahim - Portfolio",
-  "location": "Gjøvik, Norway (Open to relocation)",
-  "email": "msaif.ib10@gmail.com",
-  "phone": "+47 93074051",
-  "profile_picture": "https://avatars.githubusercontent.com/u/49753694?v=4",
-  "resume_link": "https://drive.google.com/uc?export=download&id=14bhW7jvSXiXccNxp4BlP6SbPcAf_YSSp",
-  "job_title": "Full Stack Software Engineer",
-  "copyright": "© 2024 M. Saif Ibrahim. Built with React, TypeScript, and Tailwind CSS.",
+  "name": "Ishfaq Ahmed",
+  "title": "Ishfaq Ahmed - Portfolio",
+  "location": "Islamabad, Pakistan",
+  "email": "ishfaque.bcs18@iba-suk.edu.pk",
+  "phone": "+92 333 7881264",
+  "profile_picture": "https://iili.io/fWDWxWX.md.jpg",
+  "resume_link": "",
+  "job_title": "Full Stack Software Developer",
+  "copyright": "© 2024 Ishfaq Ahmed. Built with React, TypeScript, and Tailwind CSS.",
   "socials": {
-    "linkedin": "https://www.linkedin.com/in/saif-warraich",
-    "github": "https://github.com/saifwarraich",
+    "linkedin": "",
+    "github": "",
     "portfolio": "",
     "twitter": "",
     "medium": "",
-    "devto": "https://dev.to/saifwarraich"
+    "devto": ""
   },
-  "summary": "Full Stack Software Engineer experienced in frontend (React, React Native, Next Js) and backend (Node.js, PostgreSQL, REST APIs, GraphQL) development. Skilled in designing intuitive, user-focused interfaces and building scalable systems for critical applications.",
+  "summary": "Full Stack Software Developer experienced in frontend (React, React Native, Next Js) and backend (Node.js, PostgreSQL, REST APIs, GraphQL) development. Skilled in designing intuitive, user-focused interfaces and building scalable systems for critical applications.",
 
   "skills": [
     { "name": "React", "icon_key": "react-original" },
@@ -41,88 +41,78 @@
 
   "experience": [
     {
-      "role": "Software Engineer",
-      "company": "Norwegian Cyber Range",
-      "location": "Gjøvik, Norway",
-      "period": "Sep 2024 – Present",
-      "link": "https://www.ntnu.no/ncr",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvP-G5Ayvy-bdKKLS0UcrrVRnjF2A88wo_ZjyjcGkw_5MGIAToT2I-foZNq5jkWz9970c&usqp=CAU",
+      "role": "Software Developer (Frontend)",
+      "company": "Target Technologies Pakistan",
+      "location": "Islamabad, Pakistan",
+      "period": "Jun 2025 – Nov 2025",
+      "link": "",
+      "logo": "",
+      "tech": [
+        "react",
+        "redux",
+        "scss",
+        "restapi",
+        "javascript"
+      ],
+      "description": "Contributed as a Frontend Developer on the Makman platform by designing and implementing responsive, user-friendly interfaces using React.js and SCSS. Utilized Redux for efficient state management to ensure seamless data flow across components. Collaborated closely with backend teams to integrate RESTful APIs, built modular and reusable components, optimized performance for faster rendering, and actively participated in Agile ceremonies including sprint planning, code reviews, and daily stand-ups."
+    },
+    {
+      "role": "Software Developer",
+      "company": "Coding Crafts",
+      "location": "Lahore, Pakistan",
+      "period": "Jan 2024 – Jun 2025",
+      "link": "https://www.codingcrafts.io/",
+      "logo": "https://www.codingcrafts.io/wp-content/uploads/2024/12/Coding-Crafts.svg",
+      "tech": [
+        "nodejs",
+        "nestjs",
+        "graphql",
+        "postgresql",
+        "typeorm",
+        "rest",
+        "ci/cd"
+      ],
+      "description": "Designed, developed, and maintained scalable backend services using Node.js with the NestJS framework. Built GraphQL APIs and optimized database performance using TypeORM with PostgreSQL. Integrated third-party services including payment, logistics, and notification APIs. Key contribution includes engineering a scalable RESTful API for the Hellogov parcel dispatch system using Easypost, resulting in a 30% improvement in operational efficiency. Implemented unit testing and CI/CD pipelines to ensure code quality and faster deployments."
+    },
+    {
+      "role": "Software Developer",
+      "company": "Codistan Ventures",
+      "location": "Islamabad, Pakistan",
+      "period": "Dec 2022 – Apr 2024",
+      "link": "https://www.codistan.org",
+      "logo": "https://www.codistan.org/wp-content/themes/manon/assets/img/logo_white.png",
       "tech": [
         "react",
         "nextjs",
-        "fastapi",
-        "tailwindcss",
-        "typescript",
-        "postgresql",
-        "python"
-      ],
-      "description": "Developed scalable backend APIs with TypeScript and cloud infrastructure serving 10+ EU countries. Built complex PostgreSQL architectures for data-driven apps. Created React dashboards with advanced data visualizations, improving engagement by 15%."
-    },
-    {
-      "role": "Software Development Intern",
-      "company": "Kiona AS",
-      "location": "Trondheim, Norway",
-      "period": "Jun 2024 – Aug 2024",
-      "link": "https://www.kiona.com/no",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJmfV6Txd4y34t-Z196mvk-irpE0CvtRxAZg&s",
-      "tech": ["react", "typescript", "tailwindcss"],
-      "description": "Built UIs with React + TypeScript for data filtering/visualization. Collaborated with cross-functional teams in Agile sprints. Optimized responsiveness by 20% with functional programming techniques."
-    },
-    {
-      "role": "Software Engineer",
-      "company": "Coding Crafts",
-      "location": "Lahore, Pakistan",
-      "period": "Sep 2022 – Aug 2023",
-      "link": "https://www.codingcrafts.io/",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVbpkC0nHjZTr7xgiBzeGb6wAjmGl_TxQGBA&s",
-      "tech": [
-        "react",
-        "typescript",
-        "tailwindcss",
         "nodejs",
-        "dotnet",
-        "graphql",
-        "postgresql",
         "express",
-        "rest",
-        "graphql"
-      ],
-      "description": "Developed REST/GraphQL APIs in Python, Node.js, and .NET. Architected PostgreSQL schemas for analytics platforms. Built full-stack apps with Next.js and scalable backend systems."
-    },
-    {
-      "role": "Full Stack Engineer (Part-Time)",
-      "company": "SkipQ",
-      "location": "Remote, USA",
-      "period": "Oct 2022 – Apr 2023",
-      "link": "https://www.skipq.org/",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH4VtYYyrBmiLExpfPA5cKYOtRWaol7NNM2A&s",
-      "tech": [
-        "react",
-        "typescript",
-        "flask",
         "mongodb",
-        "googlecloud",
-        "reactnative"
+        "sql",
+        "jwt",
+        "redux"
       ],
-      "description": "Built real-time communication systems with React/TypeScript frontends and React Native mobile. Developed scalable Flask + MongoDB backends (30% faster retrieval). Worked in distributed teams on production-ready apps."
+      "description": "Built scalable backend APIs using Node.js and Express.js alongside interactive frontend applications with React.js and Next.js. Implemented secure JWT-based authentication with role-based access control. Optimized database queries across MongoDB (Mongoose) and SQL databases to improve performance and scalability. Worked on multiple projects including Queue (music streaming integrations with TikTok, Spotify, Apple Music), Loyalist (fan engagement using Spotify, Twilio, and Stripe), and Thermalog (React-based analytics dashboard using Redux and MUI). Collaborated with cross-functional teams following Agile and Scrum practices."
     }
   ],
 
   "education": [
     {
-      "degree": "Master in Applied Computer Science (MACS)",
-      "university": "Norwegian University of Science and Technology -NTNU",
-      "location": "Gjøvik, Norway",
-      "period": "Aug 2023 – Jun 2025",
-      "grade": "B",
+      "degree": "Intermediate in Computer Science (ICS)",
+      "university": "Tameer-e-Nau College",
+      "location": "Quetta, Pakistan",
+      "period": "2016 – 2017",
+      "grade": "",
       "gpa": "",
-      "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvP-G5Ayvy-bdKKLS0UcrrVRnjF2A88wo_ZjyjcGkw_5MGIAToT2I-foZNq5jkWz9970c&usqp=CAU",
+      "marks": "92%",
+      "logo": "",
       "details": [
-        "Thesis: Zero-Shot Sports Video Understanding with Vision-Language Models",
-        "Specialized in AI and Web technologies with focus on machine learning and full-stack development",
-        "Research Assistant at Norwegian Cyber Range"
+        "Courses: Computer Science, Mathematics, Physics",
+        "Strong foundation in programming fundamentals and problem-solving",
+        "Focused on algorithms, logic building, and analytical thinking",
+        "Achieved high academic distinction with 92% marks"
       ]
     },
+
     {
       "degree": "Bachelor in Software Engineering (BSSE)",
       "university": "Sukkur IBA University",
@@ -139,42 +129,87 @@
     }
   ],
 
-  "projects": [
+    "projects": [
     {
       "title": "FilterStack",
       "tech": ["vuejs", "webassembly", "tailwindcss", "typescript", "vite"],
       "description": "Browser-based photo editing app with layered filters and complete client-side privacy.",
-      "background": "https://raw.githubusercontent.com/saifwarraich/FilterStack/refs/heads/main/screenshot/ss.png",
+      "background": "https://iili.io/fWDOCb4.md.png",
       "live": "https://filter-stack.vercel.app/",
-      "code": "https://github.com/saifwarraich/FilterStack",
+      "code": "",
       "coming_soon": false
     },
     {
       "title": "QuickMeme",
       "tech": ["javascript", "chrome-extension", "html", "css"],
       "description": "A Chrome extension for creating memes from any image with customizable text overlay and styling options.",
-      "background": "https://raw.githubusercontent.com/saifwarraich/quick-meme/refs/heads/main/demo/0626.gif",
+      "background": "https://iili.io/fWD8RCQ.md.gif",
       "live": "https://chromewebstore.google.com/detail/quickmeme/jgoffihfcdbdaajknhnbialokagagnjj",
-      "code": "https://github.com/saifwarraich/FilterStack",
+      "code": "",
       "coming_soon": false
     },
     {
       "title": "BPPV - Eye Tracker",
       "tech": ["react", "electron", "python", "express", "mongodb"],
-      "description": "Desktop solution for analyzing Vertigo eye-tracking data in real time or offline with annotations.",
-      "background": "https://raw.githubusercontent.com/saifwarraich/BPPV-Eye-Tracker/refs/heads/main/public/bpp-demo.gif",
+      "description": "Desktop solution for analyzing vertigo eye-tracking data in real time or offline with annotations.",
+      "background": "https://iili.io/fWD4lIe.md.gif",
       "live": "",
-      "code": "https://github.com/saifwarraich/BPPV-Eye-Tracker",
+      "code": "",
       "coming_soon": false
     },
     {
       "title": "Curio - Research Assistant",
       "tech": ["langchain", "langgraph", "python", "nextjs"],
-      "description": "Curio is an intelligent research assistant that helps you gather, analyze, and visualize data from multiple sources using advanced AI workflows. Built with LangChain and LangGraph, it seamlessly integrates Python-based data processing with a modern Next.js frontend for interactive research insights.",
+      "description": "An intelligent research assistant that helps gather, analyze, and visualize data from multiple sources using advanced AI workflows. Built with LangChain and LangGraph, integrating Python-based data processing with a modern Next.js frontend for interactive research insights.",
       "background": "",
       "live": "",
       "code": "",
       "coming_soon": true
+    },
+    {
+      "title": "Hellogov",
+      "tech": ["nestjs", "nodejs", "postgresql", "typeorm", "graphql", "easypost", "ai"],
+      "description": "A platform focused on streamlining DMV, immigration, passport, and visa services in the USA. Users can submit required documents, while AI-powered models extract, validate, and process data seamlessly with government offices, improving operational efficiency.",
+      "background": "https://iili.io/fWDZKn1.md.png",
+      "live": "https://www.hellogov.com/",
+      "code": "",
+      "coming_soon": false
+    },
+    {
+      "title": "Thermalog",
+      "tech": ["react", "redux", "mui", "rest", "iot", "nodejs"],
+      "description": "A sensor monitoring and analytics dashboard providing real-time insights into environmental conditions. Supports threshold configuration, alerts, and remote sensor control to ensure optimal system performance.",
+      "background": "https://iili.io/fWDpzQV.md.png",
+      "live": "https://thermalog.com.au/",
+      "code": "",
+      "coming_soon": false
+    },
+    {
+      "title": "Makman",
+      "tech": ["react", "redux", "scss", "rest", "nodejs"],
+      "description": "A digital platform developed for Target Oilfield Services L.L.C, Oman, designed to manage and sell critical datasets related to wells, production plants, and research for improved operational efficiency and decision-making.",
+      "background": "https://iili.io/fWbF3dB.md.png",
+      "live": "https://makman.om/",
+      "code": "",
+      "coming_soon": false
+    },
+    {
+      "title": "Ontegra Alegra",
+      "tech": ["reactnative", "redux", "nodejs", "rest", "jwt", "ai"],
+      "description": "A customer-facing facility management application that enables users to book services, track cases, manage assets, and receive guided support through an integrated AI assistant named Alegra.",
+      "background": "https://iili.io/fWbqxqb.md.png",
+      "live": "https://play.google.com/store/apps/details?id=com.ontegra.customer",
+      "code": "",
+      "coming_soon": false
+    },
+    {
+      "title": "Ontegra Techi",
+      "tech": ["reactnative", "redux", "nodejs", "rest", "firebase", "jwt"],
+      "description": "An enterprise-grade facility management solution built to streamline daily operations, including task management, workforce tracking, asset monitoring, and inventory management with real-time visibility.",
+      "background": "https://iili.io/fWbnF7R.md.png",
+      "live": "https://play.google.com/store/apps/details?id=com.ontegrataskmaster.techi",
+      "code": "",
+      "coming_soon": false
     }
   ]
 }

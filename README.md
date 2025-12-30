@@ -172,7 +172,7 @@ List technologies you're currently learning with corresponding Devicon icon keys
 {
   "experience": [
     {
-      "role": "Software Engineer",
+      "role": "Software Developer",
       "company": "Company Name",
       "location": "City, Country",
       "period": "Jan 2024 – Present",
