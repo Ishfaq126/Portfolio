@@ -1,8 +1,8 @@
 import profileData from "../assets/data/profile.json";
-import { Mail, Phone, Linkedin, MessageCircle } from "lucide-react";
+import { Mail, Phone } from "lucide-react";
 
 export function Contact() {
-  const { email, phone, socials } = profileData;
+  const { email, phone } = profileData;
 
   return (
     <footer className="mt-20 border-t border-border/50">
